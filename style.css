@@ -154,18 +154,18 @@ a {
     border-radius: 50%}
 .hero-visual {
     position: relative;
-    max-width: 430px;
+    /* max-width: 430px; */
     width: 100%;
     justify-self: end;
 }
 .photo-frame {
     background: #f1f1ef;
     padding: 13px 13px 0;
-    transform: rotate(2deg);
+    /* transform: rotate(2deg); */
     box-shadow: 0 20px 60px #0000000c;
 }
 .photo-placeholder {
-    height: 425px;
+    height: 340px;
     background: linear-gradient(145deg, #e9e9e6, #d8d8d4);
     display: flex;
     align-items: center;
@@ -187,6 +187,13 @@ a {
 .photo-placeholder strong {
     font-size: 14px;
 }
+
+.photo-placeholder img{
+    max-width: 100%;
+    position: absolute;
+    top: -115px;
+}
+
 .photo-placeholder span {
     font-size: 12px;
 }
@@ -884,6 +891,12 @@ a {
 }
 }
 @media(max-width:650px) {
+
+   .photo-placeholder img{
+    position: relative;
+    top: 15px;
+    }
+
     .site-header {
     height: 68px;
 }
@@ -911,19 +924,38 @@ a {
 .hero h1 {
     font-size: 51px;
 }
+
+.hero h1 br{
+  display: none;
+}
+
+.hero h1 span{
+  display: inline-block;
+}
+
 .hero-visual {
     justify-self: center;
-    max-width: 340px;
+    max-width: 100%;
 }
 .photo-placeholder {
-    height: 340px;
+    height: 320px;
 }
+
+.ticker{
+ white-space: normal;
+ line-height: 24px;
+}
+
+.ticker div{
+    word-spacing: 10px;
+}
+
 .floating-note {
     left: -15px;
     bottom: 55px;
 }
 .section {
-    padding: 70px 7%}
+    padding: 50px 7%}
 .section-label span:last-child {
     display: none;
 }
