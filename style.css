@@ -274,12 +274,12 @@ a {
 }
 .about-copy p {
     color: #666;
-    font-size: 14.6px;
+    font-size: 15px;
     line-height: 1.7;
 }
 .about-copy .lead {
-    font-size: 19px;
-    line-height: 1.6;
+    font-size: 20px;
+    line-height: 1.5;
     color: #222;
     margin-top: 0;
     font-weight: 600;
@@ -300,7 +300,7 @@ a {
     color: #315ef7;
 }
 .stats span {
-    font-size: 13px;
+    font-size: 14px;
     color: #666;
     font-weight: 600;
 }
@@ -397,7 +397,7 @@ a {
 .tools-note {
     text-align: center;
     color: #666;
-    font-size: 13px;
+    font-size: 13.6px;
     margin-top: 30px;
 }
 .work {
@@ -785,7 +785,7 @@ a {
     margin: 20px 0 8px;
 }
 .process-grid p {
-    font-size: 13.6px;
+    font-size: 14.6px;
     line-height: 1.6;
     color: #666;
     margin-top: 0px;
@@ -809,7 +809,7 @@ a {
     margin-top: 0px;
 }
 .experience-copy {
-    font-size: 14.6px;
+    font-size: 15px;
     color: #666;
     line-height: 1.7;
     margin-top: 25px;
@@ -823,6 +823,18 @@ a {
     line-height: 1.6;
     border-radius: 6px;
 }
+
+.experience-note strong{
+    color:#171717;
+    font-size: 14.6px;
+    letter-spacing: -0.5px;
+}
+
+.experience-note span{
+    font-style: italic;
+    color: #444;
+}
+
 .contact {
     background: #171717;
     color: #fff;
@@ -1271,7 +1283,7 @@ a {
   margin: 0 0 6px;
   color: #252620;
   font-family: 'Manrope', sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 700;
   letter-spacing: -.2px;
   line-height: 1.4;
@@ -1280,8 +1292,8 @@ a {
 .portfolio-card-info p {
   min-height: 45px;
   margin: 0;
-  color: #818078;
-  font-size: 13px;
+  color: #666;
+  font-size: 13.6px;
   line-height: 1.5;
 }
 
@@ -1293,7 +1305,7 @@ a {
   padding-top: 15px;
   border-top: 1px solid #e9e6df;
   color: #34352e;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
 }
 
