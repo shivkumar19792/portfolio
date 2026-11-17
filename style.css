@@ -795,13 +795,13 @@ a {
 }
 .experience-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.75fr 1fr;
     gap: 10%;
     padding-top: 60px;
 }
 .experience-role {
     font: 800 26px Manrope;
-    margin: 0 0 8px;
+    margin: 0 0 6px;
 }
 .experience-years {
     color: #315ef7;
@@ -811,13 +811,13 @@ a {
 .experience-copy {
     font-size: 15px;
     color: #666;
-    line-height: 1.7;
-    margin-top: 25px;
+    line-height: 1.6;
+    margin-top: 10px;
 }
 .experience-note {
     background: #fff;
     border-left: 2px solid #315ef7;
-    padding: 8px 15px;
+    padding: 6px 15px;
     color: #666;
     font-size: 13.6px;
     line-height: 1.6;
@@ -907,6 +907,10 @@ a {
    .photo-placeholder img{
     position: relative;
     top: 15px;
+    }
+
+    .experience-role{
+     font: 800 21px Manrope;
     }
 
     .site-header {
